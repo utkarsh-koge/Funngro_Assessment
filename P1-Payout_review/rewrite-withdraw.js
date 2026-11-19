@@ -224,7 +224,7 @@ async function withdraw(req, res) {
       });
     }
 
-    // 8. Keep pending/unknown gateway states for reconciliation.
+    // 8. Keep unknown gateway states for reconciliation.
     await Withdrawals.updateOne(
       {
         _id: claimed._id,
