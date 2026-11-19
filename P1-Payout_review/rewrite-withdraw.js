@@ -330,8 +330,8 @@ ADDITIONAL PRODUCTION REQUIREMENTS
    - The gateway must support idempotency using the same
      withdrawal reference when retrying a payout.
 
-   - Gateway response statuses must be mapped to the
-     application's statuses, such as "paid", "failed",
+   - Gateway response status must be mapped to the
+     application's status, such as "paid", "failed",
      "rejected", and "pending".
 
 
